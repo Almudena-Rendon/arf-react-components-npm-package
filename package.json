@@ -1,7 +1,7 @@
 {
   "name": "arf-react-components-npm-package",
   "private": false,
-  "version": "1.0.4",
+  "version": "1.0.5",
   "type": "module",
   "main": "./dist/arf-product-card.umd.js",
   "module": "./dist/arf-product-card.es.js",
@@ -11,7 +11,8 @@
       "types": "./dist/index.d.ts",
       "import": "./dist/arf-product-card.es.js",
       "require": "./dist/arf-product-card.umd.js"
-    }
+    },
+    "./dist/arf-react-components-npm-package.css": "./dist/arf-react-components-npm-package.css"
   },
   "repository": {
     "url": "https://github.com/Almudena-Rendon/arf-react-components-npm-package",
