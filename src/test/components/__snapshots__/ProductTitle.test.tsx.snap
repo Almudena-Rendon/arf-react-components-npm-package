@@ -1,0 +1,25 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`ProductTitle > Debe de mostrar el componente con el nombre del producto 1`] = `
+<div>
+  <div
+    class="_productCard_3e9733 undefined"
+  >
+    <span
+      class="_productDescription_3e9733 undefined"
+    >
+      Coffee Mug - Sin Imagen
+    </span>
+  </div>
+</div>
+`;
+
+exports[`ProductTitle > Debe mostrar el título del producto 1`] = `
+<div>
+  <span
+    class="_productDescription_3e9733 undefined"
+  >
+    Producto de prueba
+  </span>
+</div>
+`;
