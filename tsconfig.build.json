@@ -1,12 +1,21 @@
 {
-  "extends": "./tsconfig.app.json",
   "compilerOptions": {
+    "target": "ES2022",
+    "useDefineForClassFields": true,
+    "lib": ["ES2022", "DOM", "DOM.Iterable"],
+    "module": "ESNext",
+    "skipLibCheck": true,
+    "moduleResolution": "bundler",
+    "allowImportingTsExtensions": false,
+    "moduleDetection": "force",
+    "jsx": "react-jsx",
+    "strict": true,
     "declaration": true,
     "declarationMap": true,
     "emitDeclarationOnly": true,
     "outDir": "./dist",
     "noEmit": false
   },
-  "include": ["src"],
+  "include": ["src/components", "src/interfaces", "src/hooks", "src/index.ts", "src/vite-env.d.ts"],
   "exclude": ["src/**/*.test.tsx", "src/test", "src/main.tsx", "src/App.tsx"]
 }
