@@ -5,8 +5,8 @@ import { createContext } from "react";
 import { type InitialValues, type onChangeArgs, type Product, type ProductCardHandlers, type ProductContextProps } from "../interfaces/interfaces";
 
 export const ProductContext = createContext({} as ProductContextProps)
-const { Provider } = ProductContext;
 
+const { Provider } = ProductContext;
 export interface ProductCardProps {
     product: Product;
     children: ( args: ProductCardHandlers ) => React.JSX.Element;

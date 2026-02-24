@@ -18,14 +18,14 @@ export const ProductButtons = ({ className, style }: ProductButtonsProps) => {
 
     return (
         <div 
-            className={`${styles.buttonsContainer} ${className}`}
+            className={ `${styles.buttonsContainer} ${className}` }
             style={style}
         >
-            <button onClick={() => increaseBy(-1)} className={styles.buttonMinus}>-</button>
-            <div className={styles.countLabel}>{counter}</div>
+            <button onClick={() => increaseBy(-1)} className={ styles.buttonMinus }>-</button>
+            <div className={ styles.countLabel }>{counter}</div>
             <button 
                 onClick={() => increaseBy(+1)} 
-                className={`${styles.buttonAdd} ${isMaxReached() ? styles.disabled : ''}`}
+                className={ `${styles.buttonAdd} ${isMaxReached() ? styles.disabled : ''}` }
             >
                 +
             </button>
