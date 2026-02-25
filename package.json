@@ -20,7 +20,8 @@
     "type": "git"
   },
   "files": [
-    "dist"
+    "dist",
+    "styles.d.ts"
   ],
   "scripts": {
     "dev": "vite",
