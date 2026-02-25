@@ -12,7 +12,10 @@
       "import": "./dist/arf-product-card.es.js",
       "require": "./dist/arf-product-card.umd.js"
     },
-    "./styles": "./dist/arf-react-components-npm-package.css",
+    "./styles": {
+      "types": "./dist/styles.d.ts",
+      "default": "./dist/arf-react-components-npm-package.css"
+    },
     "./dist/arf-react-components-npm-package.css": "./dist/arf-react-components-npm-package.css"
   },
   "repository": {
@@ -20,8 +23,7 @@
     "type": "git"
   },
   "files": [
-    "dist",
-    "styles.d.ts"
+    "dist"
   ],
   "scripts": {
     "dev": "vite",
