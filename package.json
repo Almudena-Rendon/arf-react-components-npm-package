@@ -12,6 +12,7 @@
       "import": "./dist/arf-product-card.es.js",
       "require": "./dist/arf-product-card.umd.js"
     },
+    "./styles": "./dist/arf-react-components-npm-package.css",
     "./dist/arf-react-components-npm-package.css": "./dist/arf-react-components-npm-package.css"
   },
   "repository": {
