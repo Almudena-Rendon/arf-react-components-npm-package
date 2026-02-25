@@ -8,6 +8,7 @@ Este e sun paquete de pruebas de despliegue en NPM
 
 ```
 import { ProductCard, ProductImage, ProductTitle, ProductButtons } from 'do-product-card';
+import 'arf-react-components-npm-package/styles'
 
 ```
 

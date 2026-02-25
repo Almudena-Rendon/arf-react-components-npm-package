@@ -27,7 +27,7 @@
   ],
   "scripts": {
     "dev": "vite",
-    "build": "vite build && tsc -p tsconfig.build.json",
+    "build": "vite build && tsc -p tsconfig.build.json && copy styles.d.ts dist\\styles.d.ts",
     "lint": "eslint .",
     "preview": "vite preview",
     "test": "vitest",
